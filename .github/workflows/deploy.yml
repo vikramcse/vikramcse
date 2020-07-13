@@ -20,6 +20,4 @@ jobs:
           go-version: '1.14.4'
 
       - name: build
-        run: |
-          go build -o gen_readme .
-          gen_readme
+        run: go run main.go weather.go
