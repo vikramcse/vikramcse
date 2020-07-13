@@ -18,6 +18,15 @@ jobs:
         with:
           stable: 'true'
           go-version: '1.14.4'
-
+      
+      - name: Initilize Env variables
+        env:
+          WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
+      
       - name: build
         run: go run main.go weather.go
+      
+      - name: Commit results
+        run: |
+          git commit -m "Update readme" -a || echo "No changes to commit"
+          git push https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git HEAD:${{ github.ref }} || echo "No changes to commit"
