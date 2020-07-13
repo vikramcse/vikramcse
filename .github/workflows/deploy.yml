@@ -18,12 +18,10 @@ jobs:
         with:
           stable: 'true'
           go-version: '1.14.4'
-      
-      - name: Initilize Env variables
+
+      - name: build
         env:
           WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
-      
-      - name: build
         run: go run main.go weather.go
       
       - name: Commit results
