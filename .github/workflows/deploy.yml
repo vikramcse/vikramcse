@@ -18,7 +18,12 @@ jobs:
         with:
           stable: 'true'
           go-version: '1.14.4'
-
+      
+      - name: Setup timezone
+        uses: zcong1993/setup-timezone@master
+        with:
+          timezone: Asia/Kolkata
+      
       - name: build
         env:
           WEATHER_KEY: ${{ secrets.WEATHER_KEY }}
