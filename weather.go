@@ -51,7 +51,7 @@ type weatherInfo struct {
 
 func (w *weather) getWeatherInfo() (*weatherInfo, error) {
 	info := &weatherInfo{}
-	api := "http://api.weatherstack.com/current?access_key=" + w.apiKey + "&query=" + w.city
+	api := "http://api.weatherstack.com/current?access_key=d1ddbfd3540b310d5558148c317b0877" + "&query=" + w.city
 
 	r, err := http.Get(api)
 	if err != nil {
