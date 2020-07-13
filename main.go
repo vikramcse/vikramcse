@@ -106,6 +106,8 @@ func generateThoughtOfTheDay(title string) error {
 		return fmt.Errorf("error while saving background image %v", err)
 	}
 
+	fmt.Println("generated quote ", title)
+
 	return nil
 }
 
@@ -176,6 +178,8 @@ func generateDayInfo() error {
 	if err := dc.SavePNG("./assets/day.png"); err != nil {
 		return fmt.Errorf("error while saving background image %v", err)
 	}
+
+	fmt.Printf("got weather info %s, %s", desc, strconv.Itoa(temp))
 
 	return err
 }
