@@ -66,4 +66,3 @@ func (w *weather) getWeatherInfo() (*weatherInfo, error) {
 
 	return info, nil
 }
-
