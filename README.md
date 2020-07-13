@@ -11,5 +11,5 @@ My name is Vikram. Welcome to my GitHub Repository!
 - 👯 Respect people
 
 ---
-<img align='left' src='https://github.com/vikramcse/vikramcse/blob/master/assets/day.png' width='450"'>
-<img align='right' src='https://github.com/vikramcse/vikramcse/blob/master/assets/quote.png' width='450"'>
+<img align='left' src='https://github.com/vikramcse/vikramcse/blob/master/assets/day.png' width='300"'>
+<img align='right' src='https://github.com/vikramcse/vikramcse/blob/master/assets/quote.png' width='300"'>
