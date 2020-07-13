@@ -185,6 +185,13 @@ func generateDayInfo() error {
 }
 
 func greetTime(t time.Time) string {
+	l, err := time.LoadLocation("Asia/Kolkata")
+	if err != nil {
+		fmt.Println(err)
+	}
+
+	t = t.In(l)
+
 	var g string
 	switch {
 	case t.Hour() < 12:
