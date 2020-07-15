@@ -180,6 +180,7 @@ func generateDayInfo() error {
 	}
 
 	fmt.Printf("got weather info %s, %s", desc, strconv.Itoa(temp))
+	fmt.Printf("got date info %s", d)
 
 	return err
 }
