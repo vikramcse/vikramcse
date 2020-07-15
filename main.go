@@ -112,7 +112,7 @@ func generateThoughtOfTheDay(title string) error {
 }
 
 func generateDayInfo() error {
-	d := fmt.Sprintf(time.Now().Format("01 January 2006"))
+	d := fmt.Sprintf(time.Now().Format("02 January 2006"))
 	g := greetTime(time.Now())
 	apiKey := os.Getenv("WEATHER_KEY")
 
