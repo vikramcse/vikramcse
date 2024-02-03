@@ -6,7 +6,8 @@ My name is Vikram. Welcome to my GitHub Repository!
 
 - [Kubernetes](https://github.com/kubernetes/kubernetes/pulls?q=is%3Apr+sort%3Aupdated-desc+author%3Avikramcse+is%3Aclosed+is%3Amerged) contributor ☸
 - [Apache Airflow](https://github.com/apache/airflow/pulls?q=is%3Apr+author%3Avikramcse+is%3Aclosed) contributor
-- I am in ❤️ with Go (Golang)
+- I am in ❤️ with Go
+- Currently learning Rust🦀
 - I also write 🐍 and Django at work
 - I recently build a command line application [owl](https://github.com/vikramcse/owl) in Go
 - Build everything for ☁️
